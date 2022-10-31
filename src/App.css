@@ -1,0 +1,238 @@
+
+
+*{
+  box-sizing:border-box;
+}
+
+.fa{
+  font-size: 26px;
+  margin-right: 3px;
+}
+
+.text-list {
+  color:white;
+  padding:8px;
+}
+
+html ,body{
+  background-color:black;
+ width: 100%;
+ height: 100%;
+ padding: 0px;
+ margin:0px;
+ padding:0px;
+overflow-x: hidden;
+}
+
+
+
+
+
+.display-7{
+  font-size: 2rem;
+  padding: 5px;
+  font-family:'Times New Roman', Times, serif
+}
+
+.go-back{
+  margin-top: 0;
+}
+
+@media(max-width:330px){
+  
+  .go-back{
+    margin-top:18px;
+  }
+}
+
+
+
+
+@media(max-width:600px){
+  .display-7{
+    font-size: 1.7rem;
+  }
+
+  .fa{
+    font-size: 22px;
+
+  }
+}
+
+
+
+@media(max-width:400px){
+  .display-7{
+    font-size: 1.5rem;
+  }
+
+  .fa{
+    font-size: 20px;
+  }
+}
+
+p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+h2,h3,h4,h5{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+h1{
+  font-family: sans-serif;
+}
+
+
+.list-group-item {
+  background: rgba(70, 67, 67, 0.2);
+  color:#ffffff;
+  margin: 5px;
+}
+
+.bg-darki{
+  background: rgba(70, 67, 67, 0.2);
+}
+
+ strong{
+color:#FFD700;
+margin-right:10px;
+font-size:1rem
+}
+
+#movies img,
+#movie img {
+  width: 100%;
+}
+.brand-text {
+  font-size: 2rem;
+  font-family: verdana;
+}
+#react-logo {
+  color: #00d8ff;
+
+}
+
+#react-logo1 {
+  color: #00d8ff;
+
+}
+
+.fa-io{
+  font-size: 4rem;
+}
+
+#imdb-logo {
+  color: #f5de50;
+
+}
+
+
+@media (max-width:770px){
+  #react-logo{
+  display: none;
+  }
+}
+
+
+ @media (max-width:770px){
+ body .jumbotron{
+  background:black;
+  }
+} 
+
+
+.jumbotron{
+  padding:4rem 2rem;
+  margin-bottom: 2rem;
+  background: rgba(70, 67, 67, 0.2);
+  border-radius: 0.3rem;
+}
+  
+
+.btn-nmchp{
+  font-size: 1.125rem;                                
+   min-height: 20px;
+   width:120px ;
+    background-color: #e50914;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+
+
+
+@media (max-width:419px){
+  .jumbotron {
+   font-size: 1rem;
+  }
+}
+
+
+
+@media (max-width:419px){
+  .brand-text {
+   margin-left: 2px;
+   font-size: 1.8rem;
+  }
+}
+
+
+
+
+
+
+@media (max-width:419px){
+  .btn-nmchp {
+   font-size: 1rem;
+  }
+}
+
+
+
+
+@media (min-width: 960px) {
+  #movies .col-md-3 .well {
+    height: 390px;
+  }
+
+  #movies .col-md-3 img {
+    height: 240px;
+  }
+}
+
+
+
+
+.h-80{
+  height: 81vh;
+}
+
+
+
+input::placeholder{
+  
+
+  font-size: 1rem;
+  padding: 4px;
+  color:#060d17;
+  border-radius: 5px solid black;
+}
+
+
+
+/* input { outline: none; } */
+
+.stl{
+  text-decoration: none;
+  color:#ffffff
+}
+.stl:hover{
+  color:red;
+  
+}
+
